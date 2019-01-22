@@ -1,4 +1,4 @@
-package org.iniciantes.tutorial;
+package org.iniciantesTotais.tutorial;
 
 public class Pessoa {
 	// Atributos
