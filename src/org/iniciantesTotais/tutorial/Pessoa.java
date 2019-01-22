@@ -17,6 +17,7 @@ public class Pessoa {
 	
 	public void setNome(String qualquerNome) {
 		nome = qualquerNome;
+		
 	}
 
 	public int getMaxLivros() {
