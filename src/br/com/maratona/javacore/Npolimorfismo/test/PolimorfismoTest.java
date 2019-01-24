@@ -1,4 +1,8 @@
-package br.com.maratona.javacore.Npolimorfismo.classes;
+package br.com.maratona.javacore.Npolimorfismo.test;
+
+import br.com.maratona.javacore.Npolimorfismo.classes.Gerente;
+import br.com.maratona.javacore.Npolimorfismo.classes.RelatorioPagamento;
+import br.com.maratona.javacore.Npolimorfismo.classes.Vendedor;
 
 public class PolimorfismoTest {
 
