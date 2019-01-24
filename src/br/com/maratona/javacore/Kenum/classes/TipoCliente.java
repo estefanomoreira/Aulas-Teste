@@ -1,8 +1,12 @@
 package br.com.maratona.javacore.Kenum.classes;
 
 public enum TipoCliente {
-	// tudo é considerado constante
-	PESSOA_FISICA(1, "Pessoa Fisica"), PESSOA_JURIDICA(2, "Pessoa Juridica");
+	// tudo ï¿½ considerado constante
+	PESSOA_FISICA(1, "Pessoa Fisica"), PESSOA_JURIDICA(2, "Pessoa Juridica"){
+		public String getId() {
+			return "B";
+		}
+	};
 	
 	private int tipo;
 	private String nome;
@@ -11,7 +15,9 @@ public enum TipoCliente {
 		this.tipo = tipo;
 		this.nome = nome;
 	}
-
+	public String getId() {
+		return "A";
+	}
 	public int getTipo() {
 		return tipo;
 	}
