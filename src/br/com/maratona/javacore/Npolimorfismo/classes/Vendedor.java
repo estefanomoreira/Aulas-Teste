@@ -18,6 +18,10 @@ public class Vendedor extends Funcionario{
 		// TODO Auto-generated method stub
 		this.salario = this.salario + totalVendas * 0.05;
 	}
+
+	public double getTotalVendas() {
+		return totalVendas;
+	}
 	
 	
 }

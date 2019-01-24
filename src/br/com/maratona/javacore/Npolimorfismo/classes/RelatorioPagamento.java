@@ -18,7 +18,16 @@ public class RelatorioPagamento {
 	public void relatorioPagamentoGenerico(Funcionario funcionario) {
 		System.out.println("Gerando relatorio de pagamento");
 		funcionario.calcularPagamento();
-		System.out.println("Nome: " + funcionario.getNome());
-		System.out.println("Salario: " + funcionario.getSalario());
+//		System.out.println("Nome: " + funcionario.getNome());
+//		System.out.println("Salario: " + funcionario.getSalario());
+		if(funcionario instanceof Gerente) {
+			Gerente g = (Gerente) funcionario;
+			
+			System.out.println("Participacao nos lucros:" + ((Gerente) funcionario).getPnl());
+		}
+		if(funcionario instanceof Vendedor) {
+//			Vendedor v = (Vendedor) funcionario; equivale => ((Gerente) funcionario).getPnl();
+			System.out.println("Total vendas:" + ((Vendedor)funcionario).getTotalVendas());
+		}
 	}
 }
