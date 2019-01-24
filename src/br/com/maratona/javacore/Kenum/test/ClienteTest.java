@@ -9,5 +9,6 @@ public class ClienteTest {
 		
 		Cliente p = new Cliente("Vania", TipoCliente.PESSOA_JURIDICA, Cliente.TipoPagamento.AVISTA);
 		System.out.println(p);
+		System.out.println(TipoCliente.PESSOA_FISICA.getId());
 	}
 }
