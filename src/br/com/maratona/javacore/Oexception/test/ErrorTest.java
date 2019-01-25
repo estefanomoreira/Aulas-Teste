@@ -6,6 +6,7 @@ public class ErrorTest {
 		// TODO Auto-generated method stub
 		stackOverflowError();
 	}
+
 	public static void stackOverflowError() {
 		stackOverflowError();
 	}
