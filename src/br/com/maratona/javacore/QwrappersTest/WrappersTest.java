@@ -22,8 +22,7 @@ public class WrappersTest {
 		Double doubleWrapper = 10D;
 		Character characterWrapper = 'A';
 		Boolean booleanWrapper = true;
-		
-		
+
 	}
 
 }
